@@ -10,7 +10,8 @@ from alembic import context
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
-from project.core.config import settings
+from src.project.core.config import settings
+#from src.project.core.config import settings
 from project.infrastructure.postgres.database import metadata
 from project.infrastructure.postgres.models import *  # noqa
 
